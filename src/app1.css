@@ -1,0 +1,19 @@
+#app1 {
+  width: 50vw;
+  height: 50vh;
+  position: relative;
+}
+#app1 .output #number {
+  position: absolute;
+  left: 50%;
+}
+#app1 .actions {
+  position: absolute;
+  left: 50%;
+  top: 40px;
+  margin-left: -110px;
+}
+#app1 .actions > button {
+  width: 60px;
+  height: 30px;
+}
